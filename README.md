@@ -1,20 +1,23 @@
 # Data Analyst & Visualization App
-pip install fastapi uvicorn pandas python-multipart --timeout 100
-## 📤 Upload Dataset
 
-![Upload Dataset](assets/screenshots/upload.png)
+A full-stack data analysis and visualization web application that allows users to upload CSV or Excel files, explore datasets, and generate interactive charts in real time.
 
-## 📊 Dataset Analysis
-![Dataset Analysis](assets/screenshots/dataset.png)
+Built using **FastAPI**, **Pandas**, **React**, **Chart.js**, and **Docker**, this project demonstrates practical data analysis workflows, backend API design, and modern frontend visualization.
 
-## 📈 Interactive Charts
-![Interactive Bar Charts](assets/screenshots/bargraph.png)
+---
 
-## 📈 Interactive Charts
-![Interactive Pie Charts](assets/screenshots/pie.png)
+## 🚀 Features
 
-## 📈 Interactive Charts
-![Interactive Line Charts](assets/screenshots/line.png)
+- Upload **CSV / Excel** datasets
+- Dataset preview & summary
+- Interactive charts (Bar, Line, Pie, Scatter)
+- Client-side chart interactivity using Chart.js
+- Backend-powered data processing with Pandas
+- Dockerized backend for easy deployment
 
-## 📈 Interactive Charts
-![Interactive Scatter Charts](assets/screenshots/scatter.png)
+---
+
+## 🛠️ Installation (Backend)
+
+```bash
+pip install fastapi uvicorn pandas python-multipart
