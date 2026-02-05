@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Data Analyst & Visualization App
+
+A full-stack data analysis and visualization web application that allows users to upload CSV or Excel files, explore datasets, and generate interactive charts in real time.
+
+Built using **FastAPI**, **Pandas**, **React**, **Chart.js**, and **Docker**, this project demonstrates practical data analysis workflows, backend API design, and modern frontend visualization.
+
+---
+
+## 🚀 Features
+
+- Upload **CSV / Excel** datasets
+- Dataset preview & summary
+- Interactive charts (Bar, Line, Pie, Scatter)
+- Client-side chart interactivity using Chart.js
+- Backend-powered data processing with Pandas
+- Dockerized backend for easy deployment
+
+---
+
+## 🛠️ Installation (Backend)
+
+```bash
+pip install fastapi uvicorn pandas python-multipart
+>>>>>>> 56b5e0f491f4ef3b07c79a6b6dcfa59079401546
